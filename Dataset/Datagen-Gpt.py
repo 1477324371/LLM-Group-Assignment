@@ -9,7 +9,7 @@ import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 
 client = OpenAI(
-    api_key="sk-7f5a8de0ff4b4c8fa7c6e24fbbcb54bb",          # 建议设为环境变量
+    api_key="your deepseek api",          # 建议设为环境变量
     base_url="https://api.deepseek.com",
 )
 
